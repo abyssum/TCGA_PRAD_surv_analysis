@@ -27,3 +27,5 @@ for folder in "$SOURCE_DIR"/*/; do
         fi
     done
 done
+
+echo "All .tsv files have been processed and copied to $DEST_DIR."
